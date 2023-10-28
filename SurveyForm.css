@@ -1,43 +1,50 @@
-* {
-    box-sizing: border-box;
-  }
-  body {
-    text-align: center;
-    background-color: #003153;
-    font-family: roboto;
-  }
-  h1, p{
-    color: white;
-  }
-  
-  #survey-form {
-    margin: 0 auto;
-    background-color: silver;
-    width: 40%;
-    padding: 45px;
-  }
-  #first[label] {
-    display: block; 
-    text-align: left;
-    font-size: 20px;
-    padding: 8px;
-  }
-  #small{
-    font-size: 10px;
-  }
-  #first > input {
-    margin: 10px auto; 
-    margin-left: 20px;
-    width: 200px;
-    height: 20px;
-  }
-  #ro {
-    margin-left: 0px;
-  }
-  #dropdown {
-    margin: 10px auto;
-  }
-  #submit {
-    margin: 0 auto;
-    text-align: center;
-  }
+body {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+#title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Your Chosen Font", sans-serif;
+}
+
+#description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+  font-family: "Your Chosen Font", sans-serif;
+}
+
+#survey-form {
+  margin: 0 auto;
+  background-color: silver;
+  height: auto;
+  width: 40%;
+  padding: 45px;
+}
+#form-bg[label] {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  padding: 8px;
+}
+#small {
+  font-size: 10px;
+}
+#form-bg > input {
+  margin: 10px auto;
+  margin-left: 20px;
+  width: 200px;
+  height: 20px;
+}
+#ro {
+  margin-left: 0px;
+}
+#dropdown {
+  margin: 10px auto;
+}
+#submit {
+  margin: 0 auto;
+  text-align: center;
+}

@@ -10,10 +10,13 @@
       <form id="survey-form">
          <div id="firstBlock">
             <label id="name-label">Name: <input required id="name" type="text" placeholder="Enter your name" name="name" /></label>
+            <hr />
             <br />
             <label id="email-label">Email: <input id="email" type="email" required placeholder="Enter Your Email" name="Email" /></label>
+            <hr />
             <br />
             <label id="number-label">Age<span id="small">(optional)</span>: <input id="number" type="number" min="5" max="99" placeholder="Enter Your age" name="Age" /></label>
+            <hr />
             <br />
          </div>
          <div id="secondBlock">
@@ -27,19 +30,27 @@
                   <option>Prefer Not To Say</option>
                   <option>Other</option>
                </select>
-               <br />
+               <hr />
+            <br />
          </div>
          <div id="thirdBlock">
          <label>Would you recommend freeCodeCamp to a friend?</label>
-         <label><input id="ro" type="radio" name="recommendation" value="definitely" />Definitely </label>
-         <label><input id="ro" type="radio" name="recommendation" value="Maybe" />Maybe </label>
-         <label><input id="ro" type="radio" name="recommendation" value="not sure" />Not Sure </label>
          <br />
+         <label><input id="ro" type="radio" name="recommendation" value="definitely" />Definitely </label>
+         <br />
+         <label><input id="ro" type="radio" name="recommendation" value="Maybe" />Maybe </label>
+         <br />
+         <label><input id="ro" type="radio" name="recommendation" value="not sure" />Not Sure </label>
+         <hr />
+          <br />
          </div>
          <div id="forthBlock">
             <label>What would you like to see improved? (Check all that apply)</label>
+            <br />
             <label><input type="checkbox" value="Front-end Project" /> Front-end Project</label>
+            <br />
             <label><input type="checkbox" value="Back-end Project"/> Back-end Project</label>  
+            <hr />
             <br />
          </div>
          <div id="fifthBlock">
@@ -47,6 +58,7 @@
             <br />
             <textarea></textarea>
             </label>
+            <hr />
             <br />
          </div>
          <input type="Submit" id="submit" />
